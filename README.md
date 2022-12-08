@@ -29,8 +29,8 @@ Healthy app is a health application ,like as you understood. Now, I'll explain p
 <p>hive: ^2.2.3: Hive is a lightweight and blazing fast key-value database written in pure Dart. Inspired by Bitcask.</p>
 
 <h1>Native Launcher Icons generator</h1>
-<p>A command-line tool which simplifies the task of updating your Flutter app's launcher icon. Fully flexible, allowing you to choose what platform you wish to update the launcher icon for and if you want, the option to keep your old launcher icon in case you want to revert back sometime in the future.</p>
+<p>flutter_launcher_icons: ^0.11.0: A command-line tool which simplifies the task of updating your Flutter app's launcher icon. Fully flexible, allowing you to choose what platform you wish to update the launcher icon for and if you want, the option to keep your old launcher icon in case you want to revert back sometime in the future.</p>
 
 <h1>Change app package name/bundle id and app name</h1>
-<p>Change App Package Name with single command. It makes the process very easy and fast.</p>
-<p>It helps you to change your flutter project's AppName and BundleId for different platforms, currently only available for IOS, Android, macOS and Web</p>
+<p>change_app_package_name: ^1.1.0: Change App Package Name with single command. It makes the process very easy and fast.</p>
+<p>rename: ^2.0.1: It helps you to change your flutter project's AppName and BundleId for different platforms, currently only available for IOS, Android, macOS and Web</p>
