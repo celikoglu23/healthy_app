@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "599669287256",
+    "project_id": "healthy-days",
+    "storage_bucket": "healthy-days.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599669287256:android:3ad4bc6e484e1250411d2d",
+        "android_client_info": {
+          "package_name": "com.healhtydays.zalisoft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "599669287256-b09pg62u78mhkjua26amv2e8otkc19v5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.healhtydays.zalisoft",
+            "certificate_hash": "5c9e618f9abe2a5b237d6eb5d768a50daa7a3d4d"
+          }
+        },
+        {
+          "client_id": "599669287256-pb6r1bt1f8fria7k5aaunak860figc5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi3K0vxnndzcFeBC828sbYkEr4_xCybuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "599669287256-pb6r1bt1f8fria7k5aaunak860figc5f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
