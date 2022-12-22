@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_mobile_template/core/extensions/context_extensions.dart';
 import 'package:flutter_mobile_template/core/extensions/string_extensions.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:sizer/sizer.dart';
+import 'package:responsive_sizer/responsive_sizer.dart';
 
 import '../../constants/app/app_constants.dart';
-import '../../extensions/context_extensions.dart';
-import '../../extensions/num_extensions.dart';
 import '../text/custom_text.dart';
 
 // ignore: must_be_immutable
@@ -116,9 +115,9 @@ class _ButtonWidgetState extends State<ButtonWidget>
               gradient: LinearGradient(
                 colors: widget.isGradient!
                     ? <Color>[
-                        AppConstants.waterLeaf,
-                        AppConstants.keppel,
-                        AppConstants.waterLeaf,
+                        AppConstants.black,
+                        AppConstants.silver,
+                        AppConstants.dew,
                       ]
                     : [
                         widget.buttonColor!,
@@ -144,13 +143,13 @@ class _ButtonWidgetState extends State<ButtonWidget>
                             size: context.dynamicHeight(widget.iconSize!),
                           )
                         : const SizedBox.shrink(),
-                1.w.pw,
+                const SizedBox(width: 10),
                 CustomText(
                   widget.text!,
                   textStyle: TextStyle(
                       color: widget.textColor,
                       fontWeight: widget.fontWeight,
-                      fontSize: widget.fontSize?.h.sp),
+                      fontSize: 12),
                 ),
               ],
             ),

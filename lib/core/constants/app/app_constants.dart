@@ -12,6 +12,7 @@ class AppConstants {
   Color mineShaft = const Color(0xFF333333);
   static const Color sandyBeach = Color(0xffFFEBCD);
   static Color background = const Color(0xffF0EEFB).withOpacity(1);
+  static Color backgroundAppbar = const Color(0xffF5F6FA);
   static const Color white = Color(0xffFFFFFF);
   static const Color waterLeaf = Color(0xffA3E8DE);
   static const Color cargox = Color(0xffA4A4A4);

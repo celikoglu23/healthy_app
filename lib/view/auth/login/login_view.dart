@@ -7,9 +7,8 @@ import 'package:flutter_mobile_template/core/extensions/string_extensions.dart';
 import 'package:flutter_mobile_template/view/auth/login/service/user_service.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
-import 'package:sizer/sizer.dart';
+import 'package:responsive_sizer/responsive_sizer.dart';
 
-import '../../../core/base/state/base_state.dart';
 import '../../../core/components/button/button_widget.dart';
 import '../../../core/components/text/custom_text.dart';
 import '../../../core/components/wave_clipper/wave_clipper.dart';
@@ -21,7 +20,7 @@ class LoginView extends StatefulWidget {
   State<LoginView> createState() => _LoginViewState();
 }
 
-class _LoginViewState extends BaseState<LoginView> {
+class _LoginViewState extends State<LoginView> {
   final UserService _userService = UserService();
   final _formKey = GlobalKey<FormState>();
   String? email;
@@ -116,7 +115,7 @@ class _LoginViewState extends BaseState<LoginView> {
                             child: ButtonWidget(
                               onTap: () {},
                               buttonColor: AppConstants.keppel,
-                              width: 60,
+                              width: 20.w,
                               text: "Enter",
                               textColor: Colors.white,
                             ),
@@ -148,11 +147,11 @@ class _LoginViewState extends BaseState<LoginView> {
                         height: 50,
                         width: 80,
                         decoration: BoxDecoration(
-                            border: Border.all(color: AppConstants.white),
+                            border: Border.all(color: AppConstants.background),
                             borderRadius: BorderRadius.circular(10)),
                         child: Padding(
                           padding: const EdgeInsets.all(12.0),
-                          child: SvgPicture.asset("google".toSvg, height: 40),
+                          child: SvgPicture.asset("google".toSvg),
                         ),
                       ),
                     ),

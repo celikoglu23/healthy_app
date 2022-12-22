@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_mobile_template/core/constants/app/app_constants.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../base/state/base_state.dart';
 import '../appbar/custom_app_bar.dart';
 
 /// Since [Scaffold] structure will be the same
@@ -22,10 +24,11 @@ class CustomScaffold extends StatefulWidget {
   State<CustomScaffold> createState() => _CustomScaffoldState();
 }
 
-class _CustomScaffoldState extends State<CustomScaffold> {
+class _CustomScaffoldState extends BaseState<CustomScaffold> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppConstants.background,
       appBar: widget.isThereAppBar! ? CustomAppBar() : null,
       body: widget.body,
     );

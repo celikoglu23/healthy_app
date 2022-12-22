@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.healhtydays.zalisoft">
+    package="com.healthapp.zalisoft">
    <application
         android:label="flutter_mobile_template"
         android:name="${applicationName}"

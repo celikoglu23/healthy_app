@@ -20,13 +20,13 @@ class Routes {
 
   GoRouter routes = GoRouter(
     debugLogDiagnostics: true,
-    initialLocation: '/home',
+    initialLocation: '/login',
     navigatorKey: rootNavigatorKey,
     routes: <RouteBase>[
       GoRoute(
         path: '/home',
         builder: (context, state) {
-          return const HomeView();
+          return HomeView();
         },
       ),
       GoRoute(
